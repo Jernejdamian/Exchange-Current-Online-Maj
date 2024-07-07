@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Kalkulator</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Exchange Current Online</h1>
+    </header>
+    <main>
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator wymiany walut</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">Podaj ile chcesz wymienić?(Wartość w PLN):</span>
+                        <input class="form__field js-amount" type="number" autofocus required placeholder="Tu wpisz kwotę ">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Podaj na jaką walutę chcesz wymienić:</span>
+                        <select class="form__field js-currency">
+                            <option value="euro">Euro</option>
+                            <option value="funt">Funt brytyjski</option>
+                            <option value="dolar">Dolar amerykański </option>
+                        </select>
+                    </label>
+                </p>
+                <span>Otrzymasz <strong class="js-result">N/A</strong></span>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

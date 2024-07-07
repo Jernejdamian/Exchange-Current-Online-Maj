@@ -1,0 +1,14 @@
+html{
+    box-sizing: border-box;
+    }
+    
+    *, ::after, ::before{
+    box-sizing: inherit;
+    }
+    body{
+        max-width: 600px;
+        margin: 0px auto;
+        font-family: "Lato", sans-serif;
+        color: #a95e13;
+        font-weight: 700;
+    }
