@@ -11,4 +11,9 @@ html{
         font-family: "Lato", sans-serif;
         color: #a95e13;
         font-weight: 700;
+        background-image: url("../images/calculate.avif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
